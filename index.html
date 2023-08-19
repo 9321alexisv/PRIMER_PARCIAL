@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Parcial</title>
+    <link rel="stylesheet" href="estilos.css">
+    <header>
+    <nav>
+        Primer Examen Parcial
+    </nav>
+    </header>
+</head>
+<body>
+    <h2>Desarrollo Web UMG</h2>
+    <br>
+    <h3>Ingresa tu edad, y genero de pelicula que deseas ver para darte una recomendacion!</h3>
+    <form id="formulario">
+        <div >
+            <label  id="label1">Edad:</label>
+            <input type="text" id="input1" >
+        </div>
+        <div>
+            <label id="label2">Genero:</label>
+            <br>
+            <input type="checkbox" id="checkbox1" onclick="seleccionUnica(this)"> Accion
+            <input type="checkbox" id="checkbox2" onclick="seleccionUnica(this)"> Terror
+            <input type="checkbox" id="checkbox3" onclick="seleccionUnica(this)"> Comedia
+            
+        </div>
+        <br>
+        <div>
+            <button type="button" id="btnAceptar">Aceptar</button>
+        </div>
+        <br>
+        <div>
+            <label id = "titPelicula">TITULO PELICULA</label>
+            <br>
+            <label id = "Clasificacion">Clasificacion Pelicula</label>
+            <br>
+            <label id = "descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur enim consectetur sed dolore magni, commodi expedita facere exercitationem reiciendis quia harum at qui atque a officiis. Molestiae incidunt provident sapiente!</label>
+            <div id = imagen>
+                <img id = "imagenPeli" src="imagenes/default.jpeg" alt="Efecto Mariposa">
+
+            </div>
+        </div>
+
+    </form>
+
+    <script src = "scriptt.js"></script>
+</body>
+</html>

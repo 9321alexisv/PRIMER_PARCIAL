@@ -1,0 +1,93 @@
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 40%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    font-weight: bold;
+    font-size: xx-large;
+    background-image: linear-gradient(135deg,#68d4f2,#2fb3d7 ,#3087ab,#155069,#1089aa);
+}
+
+h2
+{
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+h3
+{
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: rgb(1, 15, 24);
+    color: white;
+}
+
+form 
+{
+   padding-top: 5%;
+   padding-left: 42%;
+   font-size: 150%;
+}
+
+button 
+{
+    font-size: 75%; /* Aumenta el tamaño de la fuente en un 20% */
+    padding: 10px 20px; /* Aumenta el espacio interno (padding) del botón */
+    border-radius: 8px; /* Agrega bordes redondeados */
+    background-color: #155069;
+    color: white;
+    border: none;
+}
+
+button:hover
+{
+    background-color: #82d7fc;
+}
+
+#Clasificacion
+{
+    font-size: 60%;
+}
+
+#descripcion 
+{
+    font-size: 55%;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+
+}
+
+#imagen
+{
+    text-align: center;
+}
+
+img
+{   
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    max-width: 15%; /* Cambia el valor para ajustar el tamaño */
+    height: auto; /* Mantén la proporción de la imagen */
+}
+
+
+
